@@ -22,3 +22,7 @@ update icon image.
 ### 0.0.6
 
 upload donate image.
+
+### 0.0.7
+
+upload license.

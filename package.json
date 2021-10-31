@@ -3,7 +3,7 @@
 	"icon": "media/calendar-icon.png",
 	"displayName": "Programmer Calendar(程序员黄历)",
 	"description": "This is a calendar which predict the action a programmer should do and should not do",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"publisher": "huanyingtianhe",
 	"engines": {
 		"vscode": "^1.60.2"

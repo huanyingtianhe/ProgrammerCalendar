@@ -2,9 +2,9 @@
 
 This is a calendar which predict the action a programmer should do and should not do in the work days to have an easy life
 
-[Donate by AliPay](./media/alipay.jpg)
+[Donate by AliPay](https://github.com/huanyingtianhe/ProgrammerCalendar/blob/master/media/alipay.jpg?raw=true)
 |
-[Donate by wechat](./media/wechatpay.jpg)
+[Donate by wechat](https://github.com/huanyingtianhe/ProgrammerCalendar/blob/master/media/wechatpay.jpg?raw=true)
 
 
 ## Features
@@ -24,29 +24,3 @@ none.
 ## Known Issues
 
 none.
-
-## Release Notes
-
-### 0.0.1
-
-Initial release of the programmer calendar extension.
-
-### 0.0.2
-
-add github link.
-
-### 0.0.3
-
-update icon, display name.
-
-### 0.0.4
-
-update icon image.
-
-### 0.0.5
-
-update icon image.
-
-### 0.0.6
-
-upload donate image.
