@@ -1,9 +1,24 @@
 # Change Log
 
-All notable changes to the "pc" extension will be documented in this file.
+### 0.0.1
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+Initial release of the programmer calendar extension.
 
-## [Unreleased]
+### 0.0.2
 
-- Initial release
+add github link.
+
+### 0.0.3
+
+update icon, display name.
+
+### 0.0.4
+
+update icon image.
+
+### 0.0.5
+
+update icon image.
+### 0.0.6
+
+upload donate image.

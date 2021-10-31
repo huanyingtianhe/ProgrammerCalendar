@@ -1,8 +1,9 @@
 {
 	"name": "pc",
-	"displayName": "programmerCalendar",
-	"description": " a calendar which predict the action you should do to have a easy life",
-	"version": "0.0.1",
+	"icon": "media/calendar-icon.png",
+	"displayName": "Programmer Calendar(程序员黄历)",
+	"description": "This is a calendar which predict the action a programmer should do and should not do",
+	"version": "0.0.6",
 	"publisher": "huanyingtianhe",
 	"engines": {
 		"vscode": "^1.60.2"
@@ -15,6 +16,10 @@
 		"onCommand:pc.programmerCalender",
 		"onCommand:pc.WeekCalender"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/huanyingtianhe/ProgrammerCalendar.git"
+	},	  
 	"main": "./dist/extension.js",
 	"contributes": {
 		"viewsContainers": {
