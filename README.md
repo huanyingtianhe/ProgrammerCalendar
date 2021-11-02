@@ -13,9 +13,13 @@ This calendar provide the goods and bads you should follow in the work days, and
 
 ![Package Explorer](./resources/programmer-calendar-screen.png)
 
-## Requirements
+![Package Explorer](./resources/programmer-calendar-today-screen.png)
 
-all you need to do is select the  "Programmer Week Calendar" in the command panel.
+## Install
+
+1. Select the "Week Calendar" in the command panel, it will show the week calendar in the left side bar
+
+2. Select the "today" in the command panel, it will show the today information in the right down notice box.
 
 ## Extension Settings
 
