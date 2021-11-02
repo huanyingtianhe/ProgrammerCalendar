@@ -13,7 +13,7 @@
 	],
 	"activationEvents": [
 		"onCommand:Calendar",
-		"onCommand:pc.programmerCalender",
+		"onCommand:pc.today",
 		"onCommand:pc.WeekCalender"
 	],
 	"repository": {
@@ -44,7 +44,11 @@
 		"commands": [
 			{
 				"command": "pc.WeekCalender",
-				"title": "Programmer Week Calender"
+				"title": "Week Calender"
+			},
+			{
+				"command": "pc.today",
+				"title": "today"
 			}
 		]
 	},

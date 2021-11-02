@@ -13,10 +13,16 @@ export function activate(context: vscode.ExtensionContext) {
 	// This line of code will only be executed once when your extension is activated
 	console.log('Congratulations, your extension "pc" is now active!');
 	const calendarProvider = new CalendarProvider();
-	let disposable = vscode.commands.registerCommand('pc.WeekCalender', () => 
+	let disposable1 = vscode.commands.registerCommand('pc.WeekCalender', () => 
 		vscode.window.registerTreeDataProvider("Calendar", calendarProvider));
+	let today = calendarProvider.today();
+	let message = today.label;
+	today.children.forEach(child => message = message + "。 " + child.label);
+	let disposable2 = vscode.commands.registerCommand('pc.today', () => 
+		vscode.window.showInformationMessage(message));
 
-	context.subscriptions.push(disposable);
+	context.subscriptions.push(disposable1);
+	context.subscriptions.push(disposable2);
 }
 
 // this method is called when your extension is deactivated
